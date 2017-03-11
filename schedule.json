@@ -1,0 +1,51 @@
+[
+	{
+		"scheduleId": 1,
+		"startTime": "2016-02-08T08:00:00.000Z",
+		"endTime": "2016-02-08T16:00:00.000Z",
+		"parkingId": "Mech1",
+		"status":"available",
+		"userId": ""
+	},
+		{
+		"scheduleId": 2,
+		"startTime": "2016-02-08T09:00:00.000Z",
+		"endTime": "2016-02-08T13:00:00.000Z",
+		"parkingId": "Mech2",
+		"status":"available",
+		"userId": ""
+	},
+	{
+		"scheduleId": 3,
+		"startTime": "2016-02-08T08:00:00.000Z",
+		"endTime": "2016-02-08T11:00:00.000Z",
+		"parkingId": "Mech3",
+		"status":"available",
+		"userId": ""
+	},
+	{
+		"scheduleId": 4,
+		"startTime": "2016-02-08T08:00:00.000Z",
+		"endTime": "2016-02-08T11:00:00.000Z",
+		"parkingId": "Mech4",
+		"status":"available",
+		"userId": ""
+	},
+	{
+		"scheduleId": 5,
+		"startTime": "2016-02-08T12:00:00.000Z",
+		"endTime": "2016-02-08T16:00:00.000Z",
+		"parkingId": "Mech5",
+		"status":"available",
+		"userId": ""
+	},
+	{
+		"scheduleId": 6,
+		"startTime": "2016-02-08T13:00:00.000Z",
+		"endTime": "2016-02-08T18:00:00.000Z",
+		"parkingId": "Mech6",
+		"status":"available",
+		"userId": ""
+	}
+
+]
