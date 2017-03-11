@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Park-in-a-Box</title>
+		<!-- import bootstrap -->
+		<link rel="stylesheet"type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+		<!-- import custom stylesheet -->
+		<link rel="stylesheet" type="text/css" href="{{ static_url("parking.css") }}"/>	
+
+		<!-- import jQuery -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<!-- import custom JS file -->
+		<script src="{{ static_url("parking.js") }}"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1> Park-in-a-Box reservation system </h1>
+			<hr>
+			<!-- Intro row -->
+			<div class="row tutorial">
+				<p>This page contains a list available GarageBoxes. The following functions are available:</p>
+				<ol>
+					<li>You can check the GarageBox availability.</li>
+					<li>You can consult details of the GarageBox.</li>
+					<li>You can have a look at the GarageBox location (image).</li>
+					<li>You can reserve the GarageBox of your choice.</li>
+					<li>You can hover over the different areas to get instructions about it's purpose and/or possible actions.</li>
+				</ol>
+			</div>
+			<br>
+			<!-- Body row -->
+			<div class="row">
+				<!-- Left pane with all GarageBoxes and their status -->
+				<div class="col-md-6 col-sm-4 col-xs-4">
+					<!-- 
+					This is a list view that will contain all the GB's fetched from server.
+					-->
+						<ul class="list-group small" id="list" data-toggle="tooltip" title="List of GarageBoxes with their availability. Select one to show summary & image.">
+						</ul>
+				</div>
+				<div class="col-md-6 col-sm-8 col-sm-8 right-pane" id="mainViewer">
+					<!--
+						MainViewer window where GB details + location picture are shown; reserve button will request reservation of GB at server
+					-->
+					<div class="row">
+						<div class="col-md-8 col-sm-6 col-xs-6 well" data-toggle="tooltip" title="GarageBox details.">
+							<div class="row" id="descr" >
+								<div class="col-md-12 col-sm-8 col-xs-6"></div>
+							</div>
+							<div class="row" id="butt">
+								<div class="col-md-12 col-sm-8 col-xs-6"></div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 col-xs-6" id="image" data-toggle="tooltip" title="Image of GarageBox location.">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,72 @@
+[
+	{
+		"deviceId": "Mech1",
+		"location":
+			{"lat": 51.021631, "lon": 4.478939},
+		"price": "2€",
+		"owner": "user1"
+	},
+	{
+		"deviceId": "Mech2",
+		"location":
+			{"lat": 51.021730, "lon": 4.479127},
+		"price": "2€",
+		"owner": "user2"
+	},
+	{
+		"deviceId": "Mech3",
+		"location": 
+			{"lat": 51.021776, "lon": 4.478979},
+		"price": "2€",
+		"owner": "user2"
+	},
+	{
+		"deviceId": "Mech4",
+		"location":
+			{"lat": 51.021651, "lon": 4.478839},
+		"price": "2€",
+		"owner": "user3"
+	},
+	{
+		"deviceId": "Mech5",
+		"location":
+			{"lat": 51.021690, "lon": 4.478752},
+		"price": "2€",
+		"owner": "user4"
+	},
+	{
+		"deviceId": "Mech6",
+		"location":
+			{"lat": 51.028183, "lon": 4.471611},
+		"price": "2€",
+		"owner": "user5"
+	},
+	{
+		"deviceId": "Mech7",
+		"location":
+			{"lat": 51.028080, "lon": 4.471605},
+		"price": "2€",
+		"owner": "user5"
+	},
+	{
+		"deviceId": "Mech8",
+		"location":
+			{"lat": 51.028038, "lon": 4.471298},
+		"price": "2€",
+		"owner": "user1"
+	},
+	{
+		"deviceId": "Mech9",
+		"location":
+			{"lat": 51.028182, "lon": 4.471471},
+		"price": "2€",
+		"owner": "user1"
+	},
+	{
+		"deviceId": "Mech10",
+		"location":
+			{"lat": 51.028259, "lon": 4.471303},
+		"price": "2€",
+		"owner": "user1"
+	}	
+]

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="google-site-verification" content="FKJ8HxB4W1f8OW9h1uanonUfbBDmStvdJQgGAPQqBPM" />
+        <title>Parking-Plaza</title>
+        <!-- import bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <!-- import custom stylesheet -->
+        <link rel="stylesheet" type="text/css" href="{{ static_url("style.css") }}"/>
+        <!-- import specific stylesheet library for search bar-->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+	<body class="v1">
+        <div id="testDiv"></div>
+		<script src="{{ static_url("vendors.js") }}"></script>
+		<script id="myscript"  src="{{ static_url("parkinglistapp.js") }}" data-conf="{{ items }}"></script>
+	</body>
+</html>

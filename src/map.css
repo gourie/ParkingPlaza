@@ -1,0 +1,771 @@
+/** changelog
+  -.panel and #app_interface width changed to 100%
+  -#app_interface margin-left: -250px; and left: 50%; and top: 25px; removed
+
+*/
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #edefed;
+}
+
+html input, body input {
+  width: 100%;
+}
+
+/**
+ * Mobile optimization settings
+ */
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 1.4em;
+  }
+  .carousel-inner{
+    width:100%;
+    height: 450px !important;
+    }
+  .item img {
+    top: 0;
+    left: 0;
+    min-height: 450px;
+  }
+  #logo-small {
+      float: left;
+      background: url(/images/logo.png) no-repeat center;
+      display: block;
+      width: 42px;
+      height: 43px;
+      margin: 0.2em;
+  }
+  #logo {
+    display: none;
+  }
+
+  .user-large {
+    display: none;
+  }
+
+  .user-small.btn-toolbar  {
+    float: right;
+    display: block !important;
+    font-size: 3em;
+    margin: 0.3em;
+    color: white;
+  }
+
+  .tagline {
+    display: none;
+  }
+
+  .tagline-small {
+      text-align: center;
+      display: block !important;
+      height: auto;
+      padding-top: 20%;
+      padding-bottom: 1.5em;
+      margin-bottom: 1em;
+      background-color: #2f4366;
+  }
+
+  .checkbox {
+      margin-left: 10% !important;
+  }
+
+  .pane-wide {
+      margin-left: 0% !important;
+      margin-right: 0% !important;
+  }
+
+  .container.parkinglist {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+}
+
+
+/**
+ * Logo in HeaderApp
+ */
+
+#logo {
+  float: left;
+  background: url(/images/logo-text60px.png) no-repeat center;
+  width: 236px;
+  height: 60px;
+  margin: 0.5em;
+}
+
+.user-small.btn-toolbar {
+  display: none;
+}
+
+.btn-toolbar {
+  padding: 3px;
+}
+
+.tagline-small {
+  display: none;
+}
+
+.fixed-header {
+  position: fixed;
+}
+
+input {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.input[type="text"] {
+  color: #ccc;
+}
+
+.form-control {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.checkbox {
+  margin-left: 30%;
+  padding: 0.5em;
+}
+
+.checkbox label {
+  line-height: 1em;
+  float: left;
+  margin-bottom: 1em;
+}
+
+label.notchecked{
+  border: solid #a94442;
+  border-width: 1px;
+  padding: 1px;
+}
+
+.checkbox input[type=checkbox] {
+  height: 0.8em;
+  width: 0.8em;
+  padding: 0;
+  margin-top: 0.2em;
+  float: left;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+div, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+hr {
+    height: 2px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+body.v1 {
+  font-family: Verdana, Helvetica, sans-serif;
+  font-size: 1.3em;
+  color: #565a5c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #2f4366;
+  margin-top: 0.6em;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+h3 {
+  1.5em;
+}
+
+/** HTML -based header --> disabled in CSS (migrated to React HeaderApp)**/
+.simple-header {
+  background: transparent;
+  border-bottom: none;
+  z-index: 1000;
+  width: 100%;
+  position: relative;
+  padding:0;
+  display: none;
+}
+
+.simple-header .regular-header {
+  border-left: none;
+  padding: 0;
+  display: block;
+}
+
+.simple-header .regular-header .comp {
+  height: 50px;
+  line-height: 50px;
+  /** border-left: 1px solid #dce0e0; **/
+  position: relative;
+}
+
+.simple-header .regular-header .comp {
+  display: block;
+  padding: 0 19px;
+}
+
+.simple-header .regular-header .comp .btn-become-owner {
+  border-color: #dce0e0;
+}
+
+span.btn.btn-small.btn-become-owner {
+  box-sizing: border-box;
+}
+
+.btn {
+  border-radius: 2px;
+  border: 1px solid;
+  text-align: center;
+  vertical-align: middle;
+  cursor; pointer;
+}
+
+.btn-small {
+  padding: 4px 12px;
+}
+
+.add-parking-btn {
+  border: solid white !important;
+  border-width: thin !important;
+}
+
+
+*, *:before, *:after, hr, hr:before, hr:after, input[type="search"], input[type="search"]:before, input[type="search"]:after {
+  box-sizing: border-box;
+}
+
+form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+/** ReactApp HeaderApp**/
+/** #header, **/
+.headerApp {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.headerApp {
+  z-index: 1;
+}
+
+.hdr-btn {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.modal-container {
+  position: relative;
+}
+
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+#hdr-banner {
+  position: absolute;
+  width: 100%;
+  max-height: 100%;
+}
+
+.hdr-content {
+  position: relative;
+  z-index: 1000;
+}
+
+#productname {
+  padding-top: 6px;
+  padding-left: 12px;
+  font-family: sans-serif;
+}
+
+.ownermodal {
+  text-align: center;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+  padding-bottom: 1.5em;
+}
+
+.linebelow {
+  border-bottom: solid 1px #CCC;
+}
+
+.lineabove {
+  padding-top: 1.1em;
+}
+
+#bg-vertical-dropdown {
+  min-width: 10em;
+  margin: 1px;
+}
+
+span.boldlistitem {
+  text-decoration: underline;
+}
+
+.sign-up-modal {
+  padding-top: 1.75em;
+  padding-left: 1.75em;
+  padding-right: 1.75em;
+}
+
+.signup-button {
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  font-size: 1em;
+}
+
+#google-logo {
+  position: absolute;
+  left: 2em;
+  height: 1em;
+  width: 1em;
+}
+
+#email-logo {
+  position: absolute;
+  top: inherit;
+  left: 2em;
+  height: 1em;
+  width: 1em;
+}
+
+.react-datepicker__input-container {
+  position: relative;
+}
+
+.span-color {
+  background-color: #2f4366;
+  color: #ffffff;
+}
+
+.birthdaypicker {
+  font-size: 14px;
+  color: #555;
+}
+
+.react-datepicker__close-icon::after {
+  top: 30%;
+}
+
+.confirmbutton {
+  margin-top: 20px;
+  margin-left: 42%;
+}
+
+.modalLeftButton {
+  margin-right: 75%;
+}
+
+.alertmessage {
+  text-align: center;
+  color: #A94442;
+  margin-bottom: 1em;
+}
+
+.password{
+    position: relative;
+}
+
+.password input[type="password"]{
+    padding-right: 30px;
+}
+
+.password .glyphicon,#password2 .glyphicon {
+    display: block;
+    right: 15px;
+    position: absolute;
+    top: 12px;
+    cursor:pointer;
+}
+
+
+/** ReactApp ParkingMapApp**/
+#content,
+.parkingApp {
+  height: auto;
+  width: 100%;
+  padding-top: 0.5em;
+  background-color: #2f4366;
+}
+
+#mapCanvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+}
+
+.container {
+  width: auto;
+}
+
+form .input-group {
+  min-width: 300px;
+}
+
+.pane-overlay {
+  position: 'absolute',
+  backgroundColor: '#EEE',
+  boxShadow: '0 5px 10px rgba(0, 0, 0, 0.2)',
+  border: '1px solid #CCC',
+  borderRadius: 3,
+  marginLeft: -5,
+  marginTop: 5,
+  padding: 10
+}
+
+h2.map-title {
+  color: #ffffff;
+}
+
+.map-tagline {
+  text-align: center;
+  height: auto;
+  background-color: #2f4366;
+}
+
+.modalButton {
+  text-align: center;
+  margin: auto;
+}
+
+.modaltext {
+  text-align: center;
+}
+
+.map-text {
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+/** ReactApp BoxDetails**/
+.box {
+  position: relative;
+  border-top: 1px solid #ddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.box p {
+  max-width: 80%;
+}
+
+
+/** ReactApp HomeApp**/
+#content,
+.homeApp {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #edefed;
+}
+
+h1.title {
+  color: #ffffff;
+  padding-bottom: 0.75em;
+}
+
+h2.title {
+  color: #ffffff;
+  padding-bottom: 0.75em;
+}
+
+h3.title-tag {
+  color: #ffffff;
+  padding-bottom: 0.75em;
+}
+
+h4.title {
+  padding-bottom: 1em;
+  color: #ffffff;
+}
+
+.title-line {
+  padding-bottom: 1em;
+}
+
+.tagline {
+  text-align: center;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 1.5em;
+  margin-bottom: 1em;
+  background-color: #2f4366;
+}
+
+.pane-wide {
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 600px) {
+  .pane-wide{
+      margin: 0;
+  }
+}
+
+.pane-wide.schedule {
+  height: auto;
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+
+.panel-default {
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+  margin: 0 auto;
+  border: none;
+  text-align: center;
+}
+.panel-default>.panel-heading {
+  background-color: #2f4366;
+  color: #ffffff;
+}
+.panel-howto {
+  padding-top: 0px;
+  height: 130px;
+  background-color: transparent;
+}
+
+.panel-body {
+  padding-top: 20px;
+  border: #2f4366;
+}
+
+.panel-event {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+.EventCol {
+  padding-top: 3%
+}
+
+.pane {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .pane {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.pane-text {
+  font-size: 0.9em;
+}
+
+#pane-image {
+  margin-bottom: 10px;
+  width: 80%;
+  height: auto;
+}
+
+.panel-city {
+  background-color: transparent;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.carousel-caption {
+  padding-bottom: 2.5em;
+  margin:0 auto;
+  text-align:center;
+}
+
+.text-dashboard {
+  font-size: 12px;
+}
+
+.panel-col {
+  border-right: 3px solid #ffffff;
+}
+
+.metric-right {
+  padding-right: 1.5em;
+}
+
+.metric-left {
+  padding-left: 1.5em;
+}
+
+
+/** ReactApp FooterApp**/
+
+.FooterApp {
+  padding-top: 2em;
+  bottom: 1em;
+}
+
+.ftr-content {
+  text-align: center;
+  font-size: 1em;
+}
+
+.ftr-title {
+  font-size: 1.2em;
+}
+
+/** ReactApp TosApp**/
+.tosline {
+  display: block;
+  margin-left: 2em;
+  margin-right: 1em;
+  padding-bottom: 0.5em;
+}
+
+.tostitle {
+  margin-left: 1em;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.tosdate {
+  margin-left: 1em;
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+
+.tosheader {
+  margin-left: 1em;
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+
+.footer.schedule {
+  width: 100%;
+  bottom: 1em;
+}
+
+/** ReactApp BecomeOwnerApp**/
+
+.placesSuggest {
+  margin-bottom: 15px;
+}
+
+.placesSuggest {
+  width: 100%;
+  position: relative;
+}
+
+.placesSuggest_suggests {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 .4rem .5rem .0625rem #dbdbdc;
+    z-index: 2;
+}
+
+.placesSuggest_suggest {
+  padding: .3125rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1.875rem;
+  display: flex;
+  align-items: center;
+}
+
+.placesSuggest_suggest:hover,
+.placesSuggest_suggest-active {
+  background: #f5f5f5;
+}
+
+.placesSuggest_suggestIcon {
+    color: #a7a8aa;
+    fill: #a7a8aa;
+    margin-right: 5px;
+    margin-right: .3125rem;
+}
+
+.placesSuggest_suggest:hover .placesSuggest_suggestIcon,
+.placesSuggest_suggest-active .placesSuggest_suggestIcon {
+    color: #2f4366;
+    fill: #2f4366;
+}
+
+.placesSuggest_suggestLabel {
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.placesSuggest_suggestLabel-matched {
+    font-weight: bold;
+}
+
+.placesSuggest_suggestAddress {
+    padding: .3125rem;
+    font-size: 1.2rem;
+    color: #a7a8aa;
+}
+
+.placesSuggest input {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

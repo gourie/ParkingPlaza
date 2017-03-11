@@ -1,0 +1,40 @@
+[	
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.47950","fcodeName":"populated place","toponymName":"Mechelen","fcl":"P","name":"Mechelen","fcode":"PPL","geonameId":2791537,"lat":"51.02787","adminName1":"Flanders","population":77530},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.57042","fcodeName":"populated place","toponymName":"Lier","fcl":"P","name":"Lier","fcode":"PPL","geonameId":2792397,"lat":"51.13128","adminName1":"Flanders","population":33272},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.36019","fcodeName":"populated place","toponymName":"Willebroek","fcl":"P","name":"Willebroek","fcode":"PPL","geonameId":2783632,"lat":"51.06041","adminName1":"Flanders","population":22808},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.53469","fcodeName":"populated place","toponymName":"Sint-Katelijne-Waver","fcl":"P","name":"Sint-Katelijne-Waver","fcode":"PPL","geonameId":2786641,"lat":"51.06691","adminName1":"Flanders","population":19487},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.28844","fcodeName":"populated place","toponymName":"Puurs","fcl":"P","name":"Puurs","fcode":"PPL","geonameId":2788506,"lat":"51.07409","adminName1":"Flanders","population":15944},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.67008","fcodeName":"populated place","toponymName":"Nijlen","fcl":"P","name":"Nijlen","fcode":"PPL","geonameId":2790135,"lat":"51.16096","adminName1":"Flanders","population":20792},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.24364","fcodeName":"populated place","toponymName":"Bornem","fcl":"P","name":"Bornem","fcode":"PPL","geonameId":2801447,"lat":"51.09716","adminName1":"Flanders","population":19997},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.65835","fcodeName":"populated place","toponymName":"Berlaar","fcl":"P","name":"Berlaar","fcode":"PPL","geonameId":2802156,"lat":"51.1176","adminName1":"Flanders","population":10370},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.41599","fcodeName":"populated place","toponymName":"Heffen","fcl":"P","name":"Heffen","fcode":"PPL","geonameId":2796282,"lat":"51.04722","adminName1":"Flanders","population":0},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.70093","fcodeName":"populated place","toponymName":"Leuven","fcl":"P","name":"Leuven","fcode":"PPL","geonameId":2792482,"lat":"50.87959","adminName1":"Flanders","population":92892},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.9378","fcodeName":"populated place","toponymName":"Tienen","fcl":"P","name":"Tienen","fcode":"PPL","geonameId":2785470,"lat":"50.80744","adminName1":"Flanders","population":31743},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.83695","fcodeName":"populated place","toponymName":"Aarschot","fcl":"P","name":"Aarschot","fcode":"PPL","geonameId":2803429,"lat":"50.98715","adminName1":"Flanders","population":27656},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.67056","fcodeName":"populated place","toponymName":"Herent","fcl":"P","name":"Herent","fcode":"PPL","geonameId":2796012,"lat":"50.90861","adminName1":"Flanders","population":19218},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.51418","fcodeName":"populated place","toponymName":"Tervuren","fcl":"P","name":"Tervuren","fcode":"PPL","geonameId":2785622,"lat":"50.82372","adminName1":"Flanders","population":20623},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"country, state, region,...","countryCode":"BE","lng":"4.70472","fcodeName":"third-order administrative division","toponymName":"Arrondissement Leuven","fcl":"A","name":"Arrondissement Leuven","fcode":"ADM3","geonameId":2792481,"lat":"50.88029","adminName1":"Flanders","population":0},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.69769","fcodeName":"populated place","toponymName":"Wilsele","fcl":"P","name":"Wilsele","fcode":"PPL","geonameId":2783612,"lat":"50.89188","adminName1":"Flanders","population":0},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.54353","fcodeName":"populated place","toponymName":"Kortenberg","fcl":"P","name":"Kortenberg","fcode":"PPL","geonameId":2794070,"lat":"50.88982","adminName1":"Flanders","population":17774},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.88952","fcodeName":"populated place","toponymName":"Hoegaarden","fcl":"P","name":"Hoegaarden","fcode":"PPL","geonameId":2795703,"lat":"50.7756","adminName1":"Flanders","population":6110},
+
+		{"countryId":"2802361","adminCode1":"VLG","countryName":"Belgium","fclName":"city, village,...","countryCode":"BE","lng":"4.63777","fcodeName":"populated place","toponymName":"Haacht","fcl":"P","name":"Haacht","fcode":"PPL","geonameId":2796844,"lat":"50.97737","adminName1":"Flanders","population":13541}
+
+]

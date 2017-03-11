@@ -1,0 +1,192 @@
+/** ReactApp ParkingList **/
+.border-box {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.parkinglist {
+  /**float:left;**/
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /**background:white;**/
+  width: 100%;
+  margin-bottom: 2em;
+  margin-right: 0.7em;
+  margin-left: 0.7em;
+}
+.parkinglist > div.header {
+  width: 100%;
+  background: #2f4366;
+  color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+.parkinglist > div.header > * {
+  height: 2em;
+  line-height: 2em !important;
+  vertical-align: middle;
+}
+.parkinglist > div.header > i {
+  float: left;
+  width: 40px;
+  font-size: 1.125em;
+  font-weight: bold;
+  position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.parkinglist > div.header > i.fa-angle-left {
+  text-align: left;
+}
+.parkinglist > div.header > i.fa-angle-right {
+  text-align: right;
+  margin-left: -40px;
+}
+.parkinglist > div.header > span {
+  /**float:left;**/
+  width: 100%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /**padding-left:@icon-width+@spacing;**/
+  /**margin-left:@icon-width*-1;**/
+  text-align: center;
+  /**padding-right:@icon-width;**/
+  color: inherit;
+}
+.parkinglist > div.schedule {
+  float: left;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.parkinglist > div.schedule:first-child {
+  border-top: none;
+}
+.parkinglist > div.schedule:last-child {
+  border-bottom: solid 1px #CCC;
+}
+.parkinglist > div.schedule.row {
+  border-bottom: solid 1px #CCC;
+}
+.parkinglist > div.schedule.row.changed {
+  background: #E3F2FF;
+}
+.parkinglist > div.schedule > span.item {
+  float: left;
+  width: 33.33333333%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-left: solid 1px #CCC;
+  font-size: 0.75em;
+  text-align: center;
+  height: 2em;
+  line-height: 2em !important;
+  vertical-align: middle;
+  background: white;
+  cursor: pointer;
+  color: black;
+}
+.parkinglist > div.schedule > span.item:first-child {
+  border-left: none;
+}
+.parkinglist > div.schedule > span.item.different-month {
+  color: #C0C0C0;
+}
+.parkinglist > div.schedule > span.item.schedule-in-past {
+  background: #C0C0C0;
+}
+.parkinglist > div.schedule > span.item.selected {
+  background: #2f4366;
+  color: white;
+}
+.parkinglist > div.schedule > span.item.header {
+  color: #2f4366;
+  font-weight: bold;
+  background: #edefed;
+}
+.parkinglist > div.names {
+  width: 100%;
+  color: #2f4366;
+  font-weight: bold;
+  height: 1.66666667em;
+  line-height: 1.66666667em !important;
+  vertical-align: middle;
+  border-bottom: solid 1px #CCC;
+  margin-left: 0;
+  margin-right: 0;
+}
+.parkinglist > div.footer {
+  width: 100%;
+  padding-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.parkinglist > div.footer > i {
+  float: left;
+  width: 40px;
+  font-size: 1.125em;
+  font-weight: bold;
+  position: relative;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.parkinglist > div.footer > i.fa-angle-left {
+  text-align: left;
+}
+.parkinglist > div.footer > i.fa-angle-right {
+  text-align: right;
+  margin-left: -40px;
+}
+.parkinglist > div.footer.row {
+  border-bottom: solid 1px #CCC;
+  float: left;
+  position: relative;
+  padding: 0.3em 0.3em;
+}
+.parkinglist > div.footer.row > span {
+  height: 1.66666667em;
+  line-height: 1.66666667em !important;
+  vertical-align: middle;
+  /**float:left;**/
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /**padding-left:@icon-width+@spacing;**/
+  /**margin-left:@span-width*-1;**/
+  text-align: center;
+  /**padding-right:@icon-width;**/
+  color: inherit;
+}
+.parkinglist > div.footer.row > ul.filters {
+  height: 1.66666667em;
+  line-height: 1.66666667em !important;
+  vertical-align: middle;
+  padding: 0;
+  float: right;
+  position: relative;
+  padding-left: 50px;
+  margin-right: 1em;
+  text-align: right;
+  padding-right: 40px;
+  color: inherit;
+}
+.parkinglist > div.footer.row > ul.filters > li {
+  display: inline;
+}
+.parkinglist > div.footer.row > ul.filters > li > a {
+  color: black;
+  padding: 0.2em 0.4em;
+  text-decoration: none;
+}
+.parkinglist > div.footer.row > ul.filters > li > a.changed {
+  border: solid 1px #2f4366;
+}
+.parkinglist > div.footer.row > ul.filters > li > a:hover {
+  border: solid 1px #2f4366;
+  color: black;
+  padding: 0.2em 0.4em;
+  text-decoration: none;
+}

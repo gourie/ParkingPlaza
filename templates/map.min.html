@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Attempt to split the content from map with left-pane: not a good design. It looked ok in mockup but you loose too much space in the window and becomes odd. 
+		Back to image taking full width and try to add content on top of that... -->
+		<meta charset="utf-8" />
+    <title>Parking Plaza</title>
+    <!-- import bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+	<!-- import custom stylesheet -->
+	<link rel="stylesheet" type="text/css" href="{{ static_url("style.min.css") }}"/>
+	<!-- import specific stylesheet library for search bar-->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- The async attribute lets the browser render the rest of your website while the Maps API loads. When the API is ready, it will call the function specified using the callback parameter. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOpJUw_Eif92EjrnsLIqgAiJcmGThHsHA"></script>
+
+	<!-- import JS libraries: React, Babel -removed; part of dev pipeline, jQuery-->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.2/react-dom.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script> -->
+    
+
+	</head>
+	<body class="v1">
+    <div id="header"></div>
+		<div id="content"></div>
+		<script id="myscript" src="{{ static_url("app.min.js") }}" data-conf="{{ items }}"></script>
+	</body>
+</html>
